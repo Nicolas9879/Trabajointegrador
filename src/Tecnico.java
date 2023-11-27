@@ -1,4 +1,10 @@
 public class Tecnico {
-    private String id_tecnico;
+   private int idTecnico;
     private String nombreApellido;
+
+    public Tecnico(int idTecnico, String nombreApellido) {
+        this.idTecnico = idTecnico;
+        this.nombreApellido = nombreApellido;
+    }
+
 }
